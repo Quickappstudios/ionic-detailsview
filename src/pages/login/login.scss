@@ -1,0 +1,63 @@
+page-login {
+    
+
+    /*Background of login screen*/
+     .login-content {
+       background: #3885F7;
+    
+       .logo-row {
+         padding-top: 50px;
+         padding-bottom: 20px;
+       }
+    
+
+       /*Login box*/
+       .login-box {
+         background: #3885F7;
+         padding: 20px 20px 0px 20px;
+         margin-top: 30px;
+       }
+    
+
+       /*align the Buttons and form fields to the Center*/
+       ion-row {
+          align-items: center;
+          text-align: center;
+        }
+    
+        ion-item {
+            border-radius: 30px !important;
+            padding-left: 30px !important;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+            border: 1px solid #ffffff;
+            border-bottom: 0px !important;
+            box-shadow: none !important;
+        }
+    
+        .signup-col {
+          margin: 0px 16px 0px 16px;
+          padding-bottom: 20px;
+        }
+    
+        .item-inner {
+          border-bottom-color: #ffffff !important;
+          box-shadow: none !important;
+        }
+    
+
+        /*Login button*/
+        .submit-btn {
+          background: #3885F7;
+          border-radius: 30px !important;
+          border: 1px solid #ffffff;
+        }
+    
+        /*create account button*/
+        .register-btn {
+          color: #ffffff;
+          font-size: 0.8em;
+        }
+     }
+    
+   }

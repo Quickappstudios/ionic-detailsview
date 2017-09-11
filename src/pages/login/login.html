@@ -1,0 +1,53 @@
+
+
+
+
+<ion-content class="login-content">
+
+  <!--login Logo-->
+    <ion-row class="logo-row">
+        <ion-col></ion-col>
+        <ion-col width-67>
+          <img src="https://i.pinimg.com/736x/33/b8/69/33b869f90619e81763dbf1fccc896d8d--lion-logo-modern-logo.jpg"/>
+        </ion-col>
+        <ion-col></ion-col>
+      </ion-row>
+
+
+      <div class="login-box">
+<form>
+
+    <ion-row>
+        <ion-col>
+          <ion-list inset>
+            <!--email password fields-->
+            <ion-item>
+              <ion-input type="text" placeholder="Email" name="email" required></ion-input>
+            </ion-item>
+            
+            <ion-item>
+              <ion-input type="password" placeholder="Password" name="password" required></ion-input>
+            </ion-item>
+            
+          </ion-list>
+        </ion-col>
+      </ion-row>
+
+      <!--login button create account-->
+      <ion-row>
+          <ion-col class="signup-col">
+            <button ion-button class="submit-btn" full type="submit">Login</button>
+            <button ion-button class="register-btn" block clear (click)="createAccount()">Create New Account</button>
+          </ion-col>
+        </ion-row>
+
+
+</form>
+
+
+
+
+
+      </div>
+
+</ion-content>
